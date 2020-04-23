@@ -52,10 +52,9 @@ module.exports = {
     ],
   },
   devServer: {
-    // contentBase: path.join(__dirname, "dist"),
-    color: true,
+    contentBase: path.join(__dirname, "dist"),
     compress: true,
-    port: 8090||8091,
+    port: 8090,
     open: true
   },
   resolve: {
